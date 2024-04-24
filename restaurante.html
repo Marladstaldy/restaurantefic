@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurante Patitas suaves</title>
+  <style>
+    body{background: #FFAFBD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+  </style>
+    </head>
+    <body>
+        <div style="color:orange">
+        <h1>Patitas Suaves Restaurant</h1>
+        </div>
+        <p>Descubre delicias para tu paladar con sabores tradicionales mexicanos</p>
+        <p>preparados con amor y sazón 100 % casero.</p>
+        <h2>menú diario </h2>
+        <div style="color:aqua">
+        <h3>desauyunos</h3>
+        </div>
+        <ul>
+            <li>omelet</li>
+            <img src="omelet.jpeg" alt="imagen de omelet" width="80">
+            <li>huevos rancheros</li>
+            <img src="huevos.jpeg" alt="imagen de huevos" width="80">
+            <li>chilaquiles</li>
+            <img src="chilaquiles.jpeg" alt="imagen de chilaquiles" width="80">
+            </ul>
+<div style="color:greenyellow"> 
+            <h3>comidas</h3>
+</div>
+        <ul>
+            <li>pechuga asada</li>
+            <img src="pechuga.jpeg" alt="imagen de pechuga" width="80">
+            <li>enchiladas</li>
+            <img src="enchiladas.jpeg" alt="imagen de enchiladas" width="80">
+            <li>mlanesa de res</li>
+            <img src="milanesa.jpeg" alt="imagen de milanesa" width="80">
+        </ul>
+        <div style="color:blueviolet">
+        <h3>bebidas</h3>
+        </div>
+        <ul>
+            <li>café</li>
+            <img src="cafe.jpeg" alt="imagen de café" width="80">
+            <li>agua</li>
+            <img src="agua.jpeg" alt="imagen de agua" width="80">
+            <li>refresco</li>
+            <img src="jarritos.jpeg" alt="imagen de jarritos" width="80">
+        </ul>
+    </div>
+    <!-- Formulario de contacto -->
+    <form action="procesar-datos.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+    <!-- Fin del formulario de contacto -->
+    </body>
+</html>
